@@ -12,8 +12,13 @@ int main(int argc, char *argv[]) {
 	Enqueue(&myQ, 2);
 	Enqueue(&myQ, 9);
 	Enqueue(&myQ, 1);
-	Dequeue(&myQ);
+	display(myQ.head);
 	
+	Dequeue(&myQ);
+	display(myQ.head);
+	
+	Enqueue(&myQ, 1);
+	Enqueue(&myQ, 2);
 	display(myQ.head);
 	
 	return 0;

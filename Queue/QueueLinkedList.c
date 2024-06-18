@@ -48,6 +48,6 @@ void display(nodePtr head){
 			printf("%d ->", head->data);
 		}
 	}
-	
+	printf("\n");
 	
 }
